@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Start your development with JohnDoe landing page.">
     <meta name="author" content="Devcrud">
+    <link rel="icon" href="assets/imgs/avatar.jpg" sizes="64x64" />
     <title>Arish Mallick - Software Engineer</title>
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
@@ -34,7 +35,7 @@
                 <h4 class="header-subtitle">Hello, I am</h4>
                 <h1 class="header-title">Arish Mallick</h1>
                 <h6 class="header-mono">Full Stack Developer | Software Engineer</h6>
-                <button class="btn btn-primary btn-rounded"><i class="ti-printer pr-2"></i>Print Resume</button>
+                <button class="btn btn-primary btn-rounded"><i class="ti-printer pr-2"></i>Resume</button>
             </div>
         </div>
     </header>
@@ -87,7 +88,7 @@
                 <p class="mt-20">Highly motivated software engineer who is a fresher looking for work and projects.
                     Skilled in developing scalable and secure applications using modern web frameworks. Passionate about
                     solving complex problems and delivering high-quality software.</p>
-                <button class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>Download My CV</button>
+                <button class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>Resume</button>
             </div>
             <div class="col-lg-4 about-card">
                 <h3 class="font-weight-light">Personal Info</h3>
@@ -161,20 +162,20 @@
                             </ul>
                             </p>
                             <a href="https://drive.google.com/file/d/19HsvvgllYWg4xNzPdO5cTPXrf08bXb1I/view?usp=sharing"
-                            class="read-more" target="_blank">See Result<i class="ti-angle-double-right"></i></a>
+                                class="read-more" target="_blank">See Result<i class="ti-angle-double-right"></i></a>
                             <hr>
                             <h6 class="title text-danger">2020</h6>
                             <P>Adarsh Vikas Vidyalya(CBSE)</P>
                             <p>Scored 83.8% in Higher Secondary School(HSC) i.e. 12th Standard</p>
                             <p>The stream I chose was PCMB(Physics, Chemistry, Maths, Biology)</p>
                             <a href="https://drive.google.com/file/d/1aRBHF_7dtmic6_ZMf8XyYJu-pBeUxzJ8/view?usp=sharing"
-                            class="read-more" target="_blank">See Result<i class="ti-angle-double-right"></i></a>
+                                class="read-more" target="_blank">See Result<i class="ti-angle-double-right"></i></a>
                             <hr>
                             <h6 class="title text-danger">2018</h6>
                             <P>St. Karen's Secondary School(CBSE)</P>
                             <p>Scored 90.8% in 10th standard.</p>
                             <a href="https://drive.google.com/file/d/10s6NMHsl5evXJX-cqspa9qhIUjUCQOpT/view?usp=sharing"
-                            class="read-more" target="_blank">See Result<i class="ti-angle-double-right"></i></a>
+                                class="read-more" target="_blank">See Result<i class="ti-angle-double-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -422,7 +423,8 @@
                     </div>
                     <div class="content-holder">
                         <h6 class="title"><a
-                                href="https://www.credly.com/earner/earned/badge/a6e89e54-53f9-4ef7-829e-e23196ae70f4" target="_blank">Cisco
+                                href="https://www.credly.com/earner/earned/badge/a6e89e54-53f9-4ef7-829e-e23196ae70f4"
+                                target="_blank">Cisco
                                 Introduction to Packet Tracer Cisco</a></h6>
 
                         <ul>
@@ -444,7 +446,8 @@
                     </div>
                     <div class="content-holder">
                         <h6 class="title"><a
-                                href="https://drive.google.com/file/d/1gd_wigEvUEeKIFYhvsCh_PUAtQtUqwxY/view?usp=sharing" target="_blank">Salesforce
+                                href="https://drive.google.com/file/d/1gd_wigEvUEeKIFYhvsCh_PUAtQtUqwxY/view?usp=sharing"
+                                target="_blank">Salesforce
                                 Developer Catalyst</a></h6>
 
                         <ul>
@@ -467,7 +470,8 @@
                     </div>
                     <div class="content-holder">
                         <h6 class="title"><a
-                                href="https://www.credly.com/earner/earned/badge/46868bdf-d243-4dd3-8a2c-33379d874f7f" target="_blank">CCNA
+                                href="https://www.credly.com/earner/earned/badge/46868bdf-d243-4dd3-8a2c-33379d874f7f"
+                                target="_blank">CCNA
                                 Module-1(Introduction to Networks)</a></h6>
 
                         <ul>
@@ -496,21 +500,25 @@
                 <div class="col-lg-8">
                     <div class="contact-form-card" style="border: 2px solid black;">
                         <h4 class="contact-title">Send a message</h4>
-                        <form action="">
+                        <form action="" name="submit-to-google-sheet">
                             <div class="form-group">
-                                <input class="form-control" type="text" placeholder="Name *" required>
+                                <input class="form-control" name="Name" type="text" placeholder="Name *" required>
                             </div>
                             <div class="form-group">
-                                <input class="form-control" type="email" placeholder="Email *" required>
+                                <input class="form-control" name="Email" type="email" placeholder="Email *" required>
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" id=" placeholder=" Message *" rows="7"
-                                    required></textarea>
+                                <input class="form-control" name="Mobile Number" type="text" placeholder="Mobile Number *" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="Message" placeholder="Your Message *" rows="7"
+                                    required style="resize: none;"></textarea>
                             </div>
                             <div class="form-group ">
                                 <button type="submit" class="form-control btn btn-primary">Send Message</button>
                             </div>
                         </form>
+                        <span id="msg" style="color: #07501d; margin-top: 10px; display: block; text-align: center;"></span>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -583,7 +591,24 @@
 
     <!-- JohnDoe js -->
     <script src="assets/js/johndoe.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxZzRJsEot-E0h-CZOirMuVkEiX8P_x6nFqdD-nMqkWb8_G39NLIPZ4KHFO5al8dJar/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
 
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(() => {
+                        msg.innerHTML = ""
+                    }, 5000);
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
 </body>
 
 </html>
